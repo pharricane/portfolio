@@ -1,1 +1,311 @@
+@charset "UTF-8";
 
+/*共通部分
+---------------------*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*header
+---------------------*/
+.main-nav{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    display: inline;
+    margin-left: 36px;
+    margin-right: 14px;
+}
+.main-nav a{
+    color: #595959;
+}
+.main-nav a:hover{
+    color: #383838;
+}
+.logo{
+    width: 65px;
+    margin-top: 14px;
+    margin-left: 36px;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+/*home
+---------------------*/
+.home-content{
+    background-image: url(../images/hero.png);
+    min-height: 100vh;
+    width: 100%;
+}
+/*HOME*/
+.page-title{
+    font-size: 3rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+    padding-top: 510px;
+    padding-left: 36px;
+}
+.page-title p{
+    line-height: 0.1;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+}
+.button:hover{
+    background: #fff;
+    color:#595959;
+}
+/*大きな背景画像*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+#home .page-title{
+    text-transform: none;
+}
+/*PORTFOLIOS*/
+.portfolio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+.tyuukyuu{
+    margin-right: 5px;
+}
+.syokyuu{
+    margin-left: 5px;
+}
+.portfolio2{
+    margin:auto;
+    width:  800px;
+    height: auto;
+    text-align:center
+}
+
+/*ABOUT*/
+.profile{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    color: #595959;
+    text-align: left;
+    margin-top: 30px;
+}
+.profilepic{
+    align-items: right;
+    width: 200px;
+    height: auto;
+    margin-left: 400px;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+h4{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.profilemoji{
+    display: block;
+    margin-left: 30px;
+}
+
+/*フォーム*/
+form div{
+    margin-bottom: 14px;
+    width: fit-content;
+    margin: auto;
+}
+.namesection{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color:#595959;
+    font-size: 1.125rem;
+}
+.firstname{
+    display: block;
+    margin-right: 5px;
+}
+.lastname{
+    display: block;
+}
+.box{
+    font-size: 1.125rem;
+    display: block;
+    color:#595959;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgba(255, 255, 255,.5);
+    border: 1px #595959 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+textarea{
+    height: 3rem;
+    width: 450px; 
+}
+input[type="email"],
+textarea{
+    height: 3rem;
+    width: 900px; 
+}
+input[type="submit"]{
+    border: 1px #595959 solid;
+    background-color: #595959;
+    color:#fff;
+    cursor: pointer;
+    line-height: 2;
+    padding-left:30px;
+    padding-right:30px;
+}
+.submit{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.content{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #595959;
+    text-align: center;
+    margin-top: 50px;
+}
+/*フッター
+---------------------*/
+footer{
+    background: #c7c7c7;
+    padding: 26px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 36px;
+}
+
+/*モバイル版
+---------------------*/
+@media (max-width: 600px){
+
+
+    .page-title{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .page-title p{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .page-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*HEADER*/
+    .icon{
+        margin-right: auto;
+    }
+    .main-nav{
+        font-size: 1rem;
+        margin: initial;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .main-nav li{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .menu1{
+        display: flex;
+    }
+    .menu2{
+        display: flex;
+    }
+
+    /*HOME*/
+    .home-content{
+        margin-top: 10%;
+    }
+    
+    /*portfolio*/
+    .portfolio1{
+        width: 100%;
+        display: block;
+    }
+    .portfolio2{
+        width: 100%;
+    }
+    .syokyuu{
+        margin: initial;
+    }
+    .profilemoji{
+        margin: initial;
+    }
+
+    /*ABOUT*/
+   .profile{
+    flex-direction: column;
+    text-align: center;
+   }
+   .profilepic{
+    margin-left: auto;
+    margin-right: auto;
+   }
+   h4{
+    font-size: 0.8rem;
+   }
+   
+    /*form*/
+    form div{
+        margin: initial;
+        width: 100%;
+    }
+    form{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .namesection{
+        display: block;
+    }
+    input[type="text"], textarea {
+        width: 100%;
+    }
+    input[type="email"], textarea {
+        width: 100%;
+    }
+
+
+    /*フッター*/
+    footer{
+    text-align: left;
+    margin: initial;
+    }
+
+}
