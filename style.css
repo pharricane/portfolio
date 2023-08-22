@@ -154,7 +154,7 @@ form div{
 }
 .firstname{
     display: block;
-    margin-right: 5px;
+    margin-right: 4px;
 }
 .lastname{
     display: block;
@@ -176,6 +176,7 @@ textarea{
 input[type="text"],
 textarea{
     height: 3rem;
+    width: ４４８px; 
 }
 input[type="email"],
 textarea{
