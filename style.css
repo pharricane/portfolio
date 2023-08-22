@@ -148,6 +148,10 @@ form div{
     align-items: center;
     color:#595959;
     font-size: 1.125rem;
+    width: 900px;
+}
+.mail{
+    width: 900px;
 }
 .firstname{
     display: block;
