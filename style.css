@@ -43,6 +43,10 @@ img{
     display: flex;
     justify-content: space-between;
 }
+.page-header{
+　　　　　　　align-items： center；
+}
+
 /*home
 ---------------------*/
 .home-content{
