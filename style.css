@@ -176,7 +176,6 @@ textarea{
 input[type="text"],
 textarea{
     height: 3rem;
-    width: 450px; 
 }
 input[type="email"],
 textarea{
