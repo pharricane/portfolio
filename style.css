@@ -147,7 +147,7 @@ form div{
     align-items: center;
     color:#595959;
     font-size: 1.125rem;
-    width: 900px;
+    width: 956px;
 }
 .mail{
     width: 900px;
@@ -176,7 +176,7 @@ textarea{
 input[type="text"],
 textarea{
     height: 3rem;
-    width: ４４８px; 
+    width: ５０％;
 }
 input[type="email"],
 textarea{
