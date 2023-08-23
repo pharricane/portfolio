@@ -302,6 +302,7 @@ footer p{
     }
     .namesection{
         display: block;
+        width: auto;
     }
     .firstname{
         margin: initial;
