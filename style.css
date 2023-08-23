@@ -240,7 +240,7 @@ footer p{
         margin-right: auto;
     }
     .main-nav{
-        font-size: 1rem;
+        width: auto;
         margin: initial;
     }
     .logo{
@@ -260,6 +260,7 @@ footer p{
     /*HOME*/
     .home-content{
         margin-top: 10%;
+        min-height: initial;
     }
     
     /*portfolio*/
