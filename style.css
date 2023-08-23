@@ -312,11 +312,11 @@ footer p{
     }
     
     input[type="text"], textarea {
-        width: 100%;
+        width: auto;
         margin: initial;
     }
     input[type="email"], textarea {
-        width: 100%;
+        width: auto;
     }
 
 
