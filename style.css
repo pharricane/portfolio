@@ -154,10 +154,12 @@ form div{
 }
 .firstname{
     display: block;
-    margin-right: 4px;
+    margin-right: 8px;
+    margin-left: 30px;
 }
 .lastname{
     display: block;
+    margin-left: initial;
 }
 .box{
     font-size: 1.125rem;
