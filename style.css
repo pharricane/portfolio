@@ -302,8 +302,16 @@ footer p{
     .namesection{
         display: block;
     }
+    .firstname{
+        margin: initial;
+    }
+    .mail{
+        width: auto;
+    }
+    
     input[type="text"], textarea {
         width: 100%;
+        margin: initial;
     }
     input[type="email"], textarea {
         width: 100%;
